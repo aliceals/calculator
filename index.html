@@ -11,10 +11,12 @@
 
 <body>
     <form name="calculator">
+        <h1>Alice's Calculator</h1>
+        <h2>You can count on me</h2>
         <table>
             <tr>
                 <td colspan="4">
-                    <input type="text" name="display" id="display" disabled>
+                    <input type="text" name="display" id="display">
 
                 </td>
             </tr>
@@ -22,7 +24,7 @@
                 <td><input type="button" value="1" id="one"></td>
                 <td><input type="button" value="2" id="two"></td>
                 <td><input type="button" value="3" id="three"></td>
-                <td><input type="button" value="+" id="plus"></td>
+                <td><input type="button" value="+" id="plus" class="operator"></td>
 
 
             </tr>
@@ -30,19 +32,19 @@
                 <td><input type="button" value="4" id="four"></td>
                 <td><input type="button" value="5" id="five"></td>
                 <td><input type="button" value="6" id="six"></td>
-                <td><input type="button" value="-" id="minus"></td>
+                <td><input type="button" value="-" id="minus" class="operator"></td>
             </tr>
             <tr>
                 <td><input type="button" value="7" id="seven"></td>
                 <td><input type="button" value="8" id="eight"></td>
                 <td><input type="button" value="9" id="nine"></td>
-                <td><input type="button" value="x" id="multiply"></td>
+                <td><input type="button" value="x" id="multiply" class="operator"></td>
             </tr>
             <tr>
                 <td><input type="button" value="C" id="clear"></td>
-                <td><input type="button" value="0" id="zero"></td>
-                <td><input type="button" value="=" id="equals"></td>
-                <td><input type="button" value="/" id="divide"></td>
+                <td><input type="button" value="0" id="zero" class="operator"></td>
+                <td><input type="button" value="=" id="equals" class="operator"></td>
+                <td><input type="button" value="/" id="divide" class="operator"></td>
             </tr>
         </table>
     </form>
