@@ -96,6 +96,7 @@ function performOperation(e) {
         var evaluation = eval(arrayEval.join(""));
         display.value = evaluation;
         arrayEval = [];
+        arrayEval.push(evaluation);
     }
     console.log(arrayEval);
 
