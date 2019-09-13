@@ -53,15 +53,9 @@ function print() {
 }
 
 
-function checkPast(e) {
+function checkPast() {
     if (arrayEval.length > 1) {
         print();
-        // var lastNum = arrayEval.slice(-2)[0]
-        // if (!isNaN(lastNum)) {
-        //     var newNum1 = lastNum.toString()
-        //     var newNum2 = e.toString()
-        //     display.value = newNum1 + newNum2;
-        // }
     }
 }
 
@@ -101,43 +95,43 @@ function performOperation(e) {
 
             arrayEval.push(1);
             display.value = "1";
-            checkPast(1);
+            checkPast();
         } else if (operator === '2') {
             arrayEval.push(2);
             display.value = "2";
-            checkPast(2);
+            checkPast();
         } else if (operator === '3') {
             arrayEval.push(3);
             display.value = "3";
-            checkPast(3);
+            checkPast();
         } else if (operator === '4') {
             arrayEval.push(4);
             display.value = "4";
-            checkPast(4);
+            checkPast();
         } else if (operator === '5') {
             arrayEval.push(5);
             display.value = "5";
-            checkPast(5);
+            checkPast();
         } else if (operator === '6') {
             arrayEval.push(6);
             display.value = "6";
-            checkPast(6);
+            checkPast();
         } else if (operator === '7') {
             arrayEval.push(7);
             display.value = "7";
-            checkPast(7);
+            checkPast();
         } else if (operator === '8') {
             arrayEval.push(8);
             display.value = "8";
-            checkPast(8);
+            checkPast();
         } else if (operator === '9') {
             arrayEval.push(9);
             display.value = "9";
-            checkPast(9);
+            checkPast();
         } else if (operator === '0') {
             arrayEval.push(0);
             display.value = "0";
-            checkPast(0);
+            checkPast();
         }
     }
     console.log(arrayEval);
